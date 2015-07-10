@@ -33,9 +33,10 @@ $width: ($column-width * $columns) + ($gutter * ($columns - 1));
                 display: inline-block;
                 vertical-align: top;
                 margin-left: $gutter-percentage;
+                margin-bottom: 0;
             }
             width: 100%;
-            margin-bottom: ($gutter-percentage * 2);
+            margin-bottom: 50px;
         }
     }
     @else {

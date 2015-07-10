@@ -91,7 +91,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 30, ../sass/_grid.scss */
 .grid1 {
   width: 100%;
-  margin-bottom: 4.60211%;
+  margin-bottom: 50px;
 }
 @media (min-width: 1024px) {
   /* line 30, ../sass/_grid.scss */
@@ -100,13 +100,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: inline-block;
     vertical-align: top;
     margin-left: 2.30105%;
+    margin-bottom: 0;
   }
 }
 
 /* line 30, ../sass/_grid.scss */
 .grid2 {
   width: 100%;
-  margin-bottom: 4.60211%;
+  margin-bottom: 50px;
 }
 @media (min-width: 1024px) {
   /* line 30, ../sass/_grid.scss */
@@ -115,13 +116,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: inline-block;
     vertical-align: top;
     margin-left: 2.30105%;
+    margin-bottom: 0;
   }
 }
 
 /* line 30, ../sass/_grid.scss */
 .grid3 {
   width: 100%;
-  margin-bottom: 4.60211%;
+  margin-bottom: 50px;
 }
 @media (min-width: 1024px) {
   /* line 30, ../sass/_grid.scss */
@@ -130,13 +132,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: inline-block;
     vertical-align: top;
     margin-left: 2.30105%;
+    margin-bottom: 0;
   }
 }
 
 /* line 30, ../sass/_grid.scss */
 .grid4 {
   width: 100%;
-  margin-bottom: 4.60211%;
+  margin-bottom: 50px;
 }
 @media (min-width: 1024px) {
   /* line 30, ../sass/_grid.scss */
@@ -145,13 +148,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: inline-block;
     vertical-align: top;
     margin-left: 2.30105%;
+    margin-bottom: 0;
   }
 }
 
 /* line 30, ../sass/_grid.scss */
 .grid5 {
   width: 100%;
-  margin-bottom: 4.60211%;
+  margin-bottom: 50px;
 }
 @media (min-width: 1024px) {
   /* line 30, ../sass/_grid.scss */
@@ -160,13 +164,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: inline-block;
     vertical-align: top;
     margin-left: 2.30105%;
+    margin-bottom: 0;
   }
 }
 
 /* line 30, ../sass/_grid.scss */
 .grid6 {
   width: 100%;
-  margin-bottom: 4.60211%;
+  margin-bottom: 50px;
 }
 @media (min-width: 1024px) {
   /* line 30, ../sass/_grid.scss */
@@ -175,13 +180,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: inline-block;
     vertical-align: top;
     margin-left: 2.30105%;
+    margin-bottom: 0;
   }
 }
 
 /* line 30, ../sass/_grid.scss */
 .grid7 {
   width: 100%;
-  margin-bottom: 4.60211%;
+  margin-bottom: 50px;
 }
 @media (min-width: 1024px) {
   /* line 30, ../sass/_grid.scss */
@@ -190,13 +196,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: inline-block;
     vertical-align: top;
     margin-left: 2.30105%;
+    margin-bottom: 0;
   }
 }
 
 /* line 30, ../sass/_grid.scss */
 .grid8 {
   width: 100%;
-  margin-bottom: 4.60211%;
+  margin-bottom: 50px;
 }
 @media (min-width: 1024px) {
   /* line 30, ../sass/_grid.scss */
@@ -205,13 +212,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: inline-block;
     vertical-align: top;
     margin-left: 2.30105%;
+    margin-bottom: 0;
   }
 }
 
 /* line 30, ../sass/_grid.scss */
 .grid9 {
   width: 100%;
-  margin-bottom: 4.60211%;
+  margin-bottom: 50px;
 }
 @media (min-width: 1024px) {
   /* line 30, ../sass/_grid.scss */
@@ -220,13 +228,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: inline-block;
     vertical-align: top;
     margin-left: 2.30105%;
+    margin-bottom: 0;
   }
 }
 
 /* line 30, ../sass/_grid.scss */
 .grid10 {
   width: 100%;
-  margin-bottom: 4.60211%;
+  margin-bottom: 50px;
 }
 @media (min-width: 1024px) {
   /* line 30, ../sass/_grid.scss */
@@ -235,13 +244,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: inline-block;
     vertical-align: top;
     margin-left: 2.30105%;
+    margin-bottom: 0;
   }
 }
 
 /* line 30, ../sass/_grid.scss */
 .grid11 {
   width: 100%;
-  margin-bottom: 4.60211%;
+  margin-bottom: 50px;
 }
 @media (min-width: 1024px) {
   /* line 30, ../sass/_grid.scss */
@@ -250,10 +260,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: inline-block;
     vertical-align: top;
     margin-left: 2.30105%;
+    margin-bottom: 0;
   }
 }
 
-/* line 49, ../sass/_grid.scss */
+/* line 50, ../sass/_grid.scss */
 .grid:first-child {
   margin-left: 0;
 }
@@ -282,7 +293,7 @@ body h1 {
 }
 /* line 16, ../sass/_general.scss */
 body p {
-  padding-top: 34px;
+  margin-top: 34px;
 }
 @media (min-width: 1024px) {
   /* line 16, ../sass/_general.scss */
@@ -294,28 +305,203 @@ body p {
 body a {
   color: #008ed2;
   text-transform: uppercase;
+  font-family: "Brandon Grotesque Black", sans-serif;
+  text-decoration: none;
+}
+/* line 27, ../sass/_general.scss */
+body a:after {
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 100%;
+  top: -8px;
+  background-color: #008ed2;
+  content: "";
+  transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+}
+/* line 40, ../sass/_general.scss */
+body a:hover:after {
+  transform: scaleX(0.38);
+  -webkit-transform: scaleX(0.38);
+}
+
+/* line 1, ../sass/_nav.scss */
+nav {
+  display: block;
+  text-align: center;
+  padding-bottom: 0px;
+}
+/* line 5, ../sass/_nav.scss */
+nav li {
+  display: inline-block;
+  padding: 0 32px 15px;
+  position: relative;
+}
+/* line 9, ../sass/_nav.scss */
+nav li a {
+  color: #fff;
+  font-family: "Brandon Text", sans-serif;
+  text-decoration: none;
+}
+/* line 13, ../sass/_nav.scss */
+nav li a:after {
+  display: block;
+  height: 3px;
+  position: relative;
+  width: 100%;
+  top: 15px;
+  background-color: #fff;
+  content: "";
+  transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+}
+/* line 26, ../sass/_nav.scss */
+nav li a:hover:after {
+  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+}
+/* line 31, ../sass/_nav.scss */
+nav li .linkActive:after {
+  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+}
+/* line 35, ../sass/_nav.scss */
+nav li ul {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s;
+}
+/* line 43, ../sass/_nav.scss */
+nav li:hover ul {
+  visibility: visible;
+  background: #fff;
+  opacity: 1;
+  top: 46px;
+  left: 10px;
+  border-bottom: 3px solid #001531;
+}
+/* line 50, ../sass/_nav.scss */
+nav li:hover ul li {
+  display: block;
+  padding: 5px 100px 5px 20px;
+  text-align: left;
+}
+/* line 54, ../sass/_nav.scss */
+nav li:hover ul li a {
+  color: #111;
+}
+/* line 56, ../sass/_nav.scss */
+nav li:hover ul li a:after {
+  height: 1px;
+  top: 0;
+  background-color: #111;
+}
+/* line 65, ../sass/_nav.scss */
+nav li:first-child {
+  padding-left: 0;
+}
+/* line 68, ../sass/_nav.scss */
+nav li:last-child {
+  padding-right: 0;
 }
 
 /* line 1, ../sass/_sections.scss */
 header {
   background: #001531;
-  height: 215px;
+}
+/* line 3, ../sass/_sections.scss */
+header .logo {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 100%;
 }
 
-/* line 5, ../sass/_sections.scss */
+/* line 10, ../sass/_sections.scss */
 .banner {
   background: url(/bannerimg.jpg);
   height: 515px;
   background-size: cover;
   background-position: center center;
 }
+/* line 15, ../sass/_sections.scss */
+.banner .banner-box {
+  color: #fff;
+  background-color: rgba(0, 21, 49, 0.8);
+  position: relative;
+  top: 10%;
+  width: 80%;
+  margin: auto auto;
+  text-align: center;
+  padding: 36px;
+}
+/* line 24, ../sass/_sections.scss */
+.banner .banner-box h1 {
+  font-size: 18px;
+}
+@media (min-width: 600px) {
+  /* line 24, ../sass/_sections.scss */
+  .banner .banner-box h1 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 24, ../sass/_sections.scss */
+  .banner .banner-box h1 {
+    font-size: 22px;
+  }
+}
+/* line 33, ../sass/_sections.scss */
+.banner .banner-box p {
+  margin: 0;
+  line-height: 1.4;
+  font-family: "Brandon Grotesque Black", sans-serif;
+  font-size: 24px;
+}
+@media (min-width: 600px) {
+  /* line 33, ../sass/_sections.scss */
+  .banner .banner-box p {
+    font-size: 28px;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 33, ../sass/_sections.scss */
+  .banner .banner-box p {
+    font-size: 31px;
+  }
+}
+@media (min-width: 600px) {
+  /* line 15, ../sass/_sections.scss */
+  .banner .banner-box {
+    top: 20%;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 15, ../sass/_sections.scss */
+  .banner .banner-box {
+    width: 40%;
+    top: 15%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 15, ../sass/_sections.scss */
+  .banner .banner-box {
+    top: 25%;
+  }
+}
 
-/* line 11, ../sass/_sections.scss */
+/* line 57, ../sass/_sections.scss */
 .about {
   padding-top: 65px;
   padding-bottom: 65px;
 }
-/* line 14, ../sass/_sections.scss */
+/* line 60, ../sass/_sections.scss */
 .about h1 {
   font-family: "Brandon Text", sans-serif;
   font-size: 31pt;
@@ -324,37 +510,55 @@ header {
   border-bottom: 2px solid #888888;
   display: inline;
 }
-/* line 21, ../sass/_sections.scss */
+/* line 67, ../sass/_sections.scss */
 .about h1 span {
   font-family: "Brandon Text", sans-serif;
   font-size: 15pt;
   display: block;
 }
 
-/* line 28, ../sass/_sections.scss */
+/* line 74, ../sass/_sections.scss */
 .sectors {
   padding-top: 83px;
   padding-bottom: 83px;
   background-color: #eaeaea;
 }
 
-/* line 33, ../sass/_sections.scss */
+/* line 79, ../sass/_sections.scss */
 .three-sections {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-/* line 36, ../sass/_sections.scss */
+/* line 82, ../sass/_sections.scss */
 .three-sections .grid4 {
   text-align: center;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-/* line 41, ../sass/_sections.scss */
+/* line 87, ../sass/_sections.scss */
+.three-sections p {
+  margin: 24px 0;
+}
+/* line 90, ../sass/_sections.scss */
 .three-sections h1 {
   font-family: "Brandon Grotesque Black", sans-serif;
   font-size: 22pt;
   border-bottom: 1px solid #888888;
   padding-bottom: 20px;
-  margin-bottom: 20px;
   text-transform: uppercase;
+}
+
+/* line 98, ../sass/_sections.scss */
+footer {
+  background: #001531;
+  color: #fff;
+  padding: 40px 0 0;
+  text-align: right;
+  text-transform: uppercase;
+}
+/* line 104, ../sass/_sections.scss */
+footer .grid2 {
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

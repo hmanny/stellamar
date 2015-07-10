@@ -1,12 +1,58 @@
 header {
     background: $dark-blue;
-    height: 215px;
+    .logo {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        max-width: 100%;
+    }
 }
 .banner {
     background: url(/bannerimg.jpg);
     height: 515px;
     background-size: cover;
     background-position: center center;
+    .banner-box {
+        color: $white;
+        background-color: $dark-blue-trans;
+        position: relative;
+        top: 10%;
+        width: 80%;
+        margin: auto auto;
+        text-align: center;
+        padding: 36px;
+        h1 {
+            font-size: 18px;
+            @include breakpoint($med) {
+                font-size: 20px;
+            }
+            @include breakpoint($large) {
+                font-size: 22px;
+            }
+        }
+        p {
+            margin: 0;
+            line-height: 1.4;
+            font-family: $brandon-grotesque;
+            font-size: 24px;
+            @include breakpoint($med) {
+                font-size: 28px;
+            }
+            @include breakpoint($large) {
+                font-size: 31px;
+            }
+        }
+        @include breakpoint($med) {
+            top: 20%;
+        }
+        @include breakpoint($large) {
+            width: 40%;
+            top: 15%;
+        }
+        @include breakpoint($larger) {
+            top: 25%;
+        }
+    }
 }
 .about {
     padding-top: 65px;
@@ -35,15 +81,29 @@ header {
     padding-bottom: 94px;
     .grid4 {
         text-align: center;
-        padding-left: 24px;
-        padding-right: 24px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    p {
+        margin: 24px 0;
     }
     h1 {
         font-family: $brandon-grotesque;
         font-size: 22pt;
         border-bottom: 1px solid $light-grey;
         padding-bottom: 20px;
-        margin-bottom: 20px;
         text-transform: uppercase;
+    }
+}
+footer {
+    background: $dark-blue;
+    color: $white;
+    padding: 40px 0 0;
+    text-align: right;
+    text-transform: uppercase;
+    .grid2 {
+        height: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
