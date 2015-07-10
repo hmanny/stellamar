@@ -1,0 +1,167 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*colors*/
+/* line 8, ../sass/_grid.scss */
+.container {
+  max-width: 1043px;
+  margin: 0px auto;
+  padding: 0 12.5px 0 12.5px;
+}
+
+/* line 29, ../sass/_grid.scss */
+.grid1 {
+  width: 6.13615%;
+  float: left;
+  margin-left: 2.39693%;
+}
+
+/* line 29, ../sass/_grid.scss */
+.grid2 {
+  width: 14.66922%;
+  float: left;
+  margin-left: 2.39693%;
+}
+
+/* line 29, ../sass/_grid.scss */
+.grid3 {
+  width: 23.2023%;
+  float: left;
+  margin-left: 2.39693%;
+}
+
+/* line 29, ../sass/_grid.scss */
+.grid4 {
+  width: 31.73538%;
+  float: left;
+  margin-left: 2.39693%;
+}
+
+/* line 29, ../sass/_grid.scss */
+.grid5 {
+  width: 40.26846%;
+  float: left;
+  margin-left: 2.39693%;
+}
+
+/* line 29, ../sass/_grid.scss */
+.grid6 {
+  width: 48.80153%;
+  float: left;
+  margin-left: 2.39693%;
+}
+
+/* line 29, ../sass/_grid.scss */
+.grid7 {
+  width: 57.33461%;
+  float: left;
+  margin-left: 2.39693%;
+}
+
+/* line 29, ../sass/_grid.scss */
+.grid8 {
+  width: 65.86769%;
+  float: left;
+  margin-left: 2.39693%;
+}
+
+/* line 29, ../sass/_grid.scss */
+.grid9 {
+  width: 74.40077%;
+  float: left;
+  margin-left: 2.39693%;
+}
+
+/* line 29, ../sass/_grid.scss */
+.grid10 {
+  width: 82.93384%;
+  float: left;
+  margin-left: 2.39693%;
+}
+
+/* line 29, ../sass/_grid.scss */
+.grid11 {
+  width: 91.46692%;
+  float: left;
+  margin-left: 2.39693%;
+}
+
+/* line 44, ../sass/_grid.scss */
+.clear {
+  margin-left: 0px;
+  clear: left;
+}
+
+/* line 1, ../sass/_banner.scss */
+.banner {
+  background: #001531;
+  height: 515px;
+  background-size: cover;
+  background-position: center center;
+}

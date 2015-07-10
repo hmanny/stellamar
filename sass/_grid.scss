@@ -1,0 +1,47 @@
+$columns: 12;
+$column-width: 64px;
+$gutter: 25px;
+$padding: $gutter / 2;
+$responsive: true;
+$width: ($column-width * $columns) + ($gutter * ($columns - 1));
+// Set Base Container
+.container {
+    // Set container width if responsive
+    @if $responsive==true {
+        max-width: $width;
+    }
+    @else {
+        width: $width;
+    }
+    margin:0px auto;
+    padding: 0 $padding 0 $padding;
+}
+// Define Individual Grid Classes
+@for $i from 1 to $columns {
+    // Calculate grid size in pixels
+    $grid: ($column-width * $i) + ($gutter * ($i - 1));
+    // Calculate responsive grid sizes if required
+    @if $responsive==true {
+        // Convert Pixels to Percentages
+        $grid: ($grid / $width) * 100%;
+        // Convert Gutter Pixels to Percentages
+        $gutter-percentage: ($gutter / $width) * 100%;
+        .grid#{$i} {
+            width: $grid;
+            float: left;
+            margin-left: $gutter-percentage;
+        }
+    }
+    @else {
+        $grid: $grid;
+        .grid#{$i} {
+            width: $grid;
+            float: left;
+            margin-left: $gutter;
+        }
+    }
+}
+.clear {
+    margin-left: 0px;
+    clear: left;
+}
