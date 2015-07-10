@@ -1,0 +1,14 @@
+header {
+    background: $dark-blue;
+    height: 215px;
+}
+.banner {
+    background: url(/bannerimg.jpg);
+    height: 515px;
+    background-size: cover;
+    background-position: center center;
+}
+.about {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}

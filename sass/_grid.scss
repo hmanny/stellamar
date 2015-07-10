@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 $columns: 12;
 $column-width: 64px;
 $gutter: 25px;
@@ -27,9 +35,13 @@ $width: ($column-width * $columns) + ($gutter * ($columns - 1));
         // Convert Gutter Pixels to Percentages
         $gutter-percentage: ($gutter / $width) * 100%;
         .grid#{$i} {
-            width: $grid;
-            float: left;
-            margin-left: $gutter-percentage;
+            @include breakpoint($large) {
+                width: $grid;
+                float: left;
+                margin-left: $gutter-percentage;
+            }
+            width: 100%;
+            margin-bottom: ($gutter-percentage * 2);
         }
     }
     @else {

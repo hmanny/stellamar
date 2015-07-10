@@ -4,6 +4,8 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "breakpoint";
 @import "variables";
+@import "breakpoints";
 @import "grid";
-@import "banner";
+@import "sections";
