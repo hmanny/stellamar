@@ -11,4 +11,39 @@ header {
 .about {
     padding-top: 65px;
     padding-bottom: 65px;
+    h1 {
+        font-family: $brandon-text;
+        font-size: 31pt;
+        text-transform: uppercase;
+        font-weight: normal;
+        border-bottom: 2px solid $light-grey;
+        display: inline;
+        span {
+            font-family: $brandon-text;
+            font-size: 15pt;
+            display: block;
+        }
+    }
+}
+.sectors {
+    padding-top: 83px;
+    padding-bottom: 83px;
+    background-color: $off-white;
+}
+.three-sections {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    .grid4 {
+        text-align: center;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    h1 {
+        font-family: $brandon-grotesque;
+        font-size: 22pt;
+        border-bottom: 1px solid $light-grey;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
 }

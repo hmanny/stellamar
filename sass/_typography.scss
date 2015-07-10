@@ -1,0 +1,4 @@
+@import "compass/css3/font-face";
+@include font-face("Brandon Text", font-files("/fonts/brandon_text_regular.woff", "/fonts/brandon_text_regular.svg", "/fonts/brandon_text_regular.ttf"));
+@include font-face("Brandon Grotesque Black", font-files("/fonts/brandongrotesque-black-webfont.woff", "/fonts/brandongrotesque-black-webfont.svg", "/fonts/brandongrotesque-black-webfont.ttf"));
+@include font-face("Brandon Grotesque Regular", font-files("/fonts/brandon_grotesque_regular.woff", "/fonts/brandon_grotesque_regular.svg", "/fonts/brandon_grotesque_regular.ttf"));

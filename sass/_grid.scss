@@ -1,11 +1,3 @@
-html {
-    box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
 $columns: 12;
 $column-width: 64px;
 $gutter: 25px;
@@ -23,6 +15,7 @@ $width: ($column-width * $columns) + ($gutter * ($columns - 1));
     }
     margin:0px auto;
     padding: 0 $padding 0 $padding;
+    display: block;
 }
 // Define Individual Grid Classes
 @for $i from 1 to $columns {
@@ -31,13 +24,14 @@ $width: ($column-width * $columns) + ($gutter * ($columns - 1));
     // Calculate responsive grid sizes if required
     @if $responsive==true {
         // Convert Pixels to Percentages
-        $grid: ($grid / $width) * 100%;
+        $grid: ($grid / $width) * 96%;
         // Convert Gutter Pixels to Percentages
-        $gutter-percentage: ($gutter / $width) * 100%;
+        $gutter-percentage: ($gutter / $width) * 96%;
         .grid#{$i} {
             @include breakpoint($large) {
                 width: $grid;
-                float: left;
+                display: inline-block;
+                vertical-align: top;
                 margin-left: $gutter-percentage;
             }
             width: 100%;
@@ -48,12 +42,10 @@ $width: ($column-width * $columns) + ($gutter * ($columns - 1));
         $grid: $grid;
         .grid#{$i} {
             width: $grid;
-            float: left;
             margin-left: $gutter;
         }
     }
 }
-.clear {
-    margin-left: 0px;
-    clear: left;
+.grid:first-child {
+    margin-left: 0;
 }

@@ -67,184 +67,233 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+@font-face {
+  font-family: "Brandon Text";
+  src: url(/fonts/brandon_text_regular.woff) format('woff'), url(/fonts/brandon_text_regular.svg) format('svg'), url(/fonts/brandon_text_regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: "Brandon Grotesque Black";
+  src: url(/fonts/brandongrotesque-black-webfont.woff) format('woff'), url(/fonts/brandongrotesque-black-webfont.svg) format('svg'), url(/fonts/brandongrotesque-black-webfont.ttf) format('truetype');
+}
+@font-face {
+  font-family: "Brandon Grotesque Regular";
+  src: url(/fonts/brandon_grotesque_regular.woff) format('woff'), url(/fonts/brandon_grotesque_regular.svg) format('svg'), url(/fonts/brandon_grotesque_regular.ttf) format('truetype');
+}
 /*colors*/
-/* line 1, ../sass/_grid.scss */
+/* line 8, ../sass/_grid.scss */
+.container {
+  max-width: 1043px;
+  margin: 0px auto;
+  padding: 0 12.5px 0 12.5px;
+  display: block;
+}
+
+/* line 30, ../sass/_grid.scss */
+.grid1 {
+  width: 100%;
+  margin-bottom: 4.60211%;
+}
+@media (min-width: 1024px) {
+  /* line 30, ../sass/_grid.scss */
+  .grid1 {
+    width: 5.8907%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2.30105%;
+  }
+}
+
+/* line 30, ../sass/_grid.scss */
+.grid2 {
+  width: 100%;
+  margin-bottom: 4.60211%;
+}
+@media (min-width: 1024px) {
+  /* line 30, ../sass/_grid.scss */
+  .grid2 {
+    width: 14.08245%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2.30105%;
+  }
+}
+
+/* line 30, ../sass/_grid.scss */
+.grid3 {
+  width: 100%;
+  margin-bottom: 4.60211%;
+}
+@media (min-width: 1024px) {
+  /* line 30, ../sass/_grid.scss */
+  .grid3 {
+    width: 22.27421%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2.30105%;
+  }
+}
+
+/* line 30, ../sass/_grid.scss */
+.grid4 {
+  width: 100%;
+  margin-bottom: 4.60211%;
+}
+@media (min-width: 1024px) {
+  /* line 30, ../sass/_grid.scss */
+  .grid4 {
+    width: 30.46596%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2.30105%;
+  }
+}
+
+/* line 30, ../sass/_grid.scss */
+.grid5 {
+  width: 100%;
+  margin-bottom: 4.60211%;
+}
+@media (min-width: 1024px) {
+  /* line 30, ../sass/_grid.scss */
+  .grid5 {
+    width: 38.65772%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2.30105%;
+  }
+}
+
+/* line 30, ../sass/_grid.scss */
+.grid6 {
+  width: 100%;
+  margin-bottom: 4.60211%;
+}
+@media (min-width: 1024px) {
+  /* line 30, ../sass/_grid.scss */
+  .grid6 {
+    width: 46.84947%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2.30105%;
+  }
+}
+
+/* line 30, ../sass/_grid.scss */
+.grid7 {
+  width: 100%;
+  margin-bottom: 4.60211%;
+}
+@media (min-width: 1024px) {
+  /* line 30, ../sass/_grid.scss */
+  .grid7 {
+    width: 55.04123%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2.30105%;
+  }
+}
+
+/* line 30, ../sass/_grid.scss */
+.grid8 {
+  width: 100%;
+  margin-bottom: 4.60211%;
+}
+@media (min-width: 1024px) {
+  /* line 30, ../sass/_grid.scss */
+  .grid8 {
+    width: 63.23298%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2.30105%;
+  }
+}
+
+/* line 30, ../sass/_grid.scss */
+.grid9 {
+  width: 100%;
+  margin-bottom: 4.60211%;
+}
+@media (min-width: 1024px) {
+  /* line 30, ../sass/_grid.scss */
+  .grid9 {
+    width: 71.42474%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2.30105%;
+  }
+}
+
+/* line 30, ../sass/_grid.scss */
+.grid10 {
+  width: 100%;
+  margin-bottom: 4.60211%;
+}
+@media (min-width: 1024px) {
+  /* line 30, ../sass/_grid.scss */
+  .grid10 {
+    width: 79.61649%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2.30105%;
+  }
+}
+
+/* line 30, ../sass/_grid.scss */
+.grid11 {
+  width: 100%;
+  margin-bottom: 4.60211%;
+}
+@media (min-width: 1024px) {
+  /* line 30, ../sass/_grid.scss */
+  .grid11 {
+    width: 87.80825%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2.30105%;
+  }
+}
+
+/* line 49, ../sass/_grid.scss */
+.grid:first-child {
+  margin-left: 0;
+}
+
+/* line 1, ../sass/_general.scss */
 html {
   box-sizing: border-box;
 }
 
-/* line 4, ../sass/_grid.scss */
+/* line 4, ../sass/_general.scss */
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
 
-/* line 16, ../sass/_grid.scss */
-.container {
-  max-width: 1043px;
-  margin: 0px auto;
-  padding: 0 12.5px 0 12.5px;
+/* line 9, ../sass/_general.scss */
+body {
+  font-family: "Brandon Text", sans-serif;
+  line-height: 1.8;
+  color: #111;
 }
-
-/* line 37, ../sass/_grid.scss */
-.grid1 {
-  width: 100%;
-  margin-bottom: 4.79386%;
+/* line 13, ../sass/_general.scss */
+body h1 {
+  padding-bottom: 24px;
 }
-@media (min-width: 1024px) {
-  /* line 37, ../sass/_grid.scss */
-  .grid1 {
-    width: 6.13615%;
-    float: left;
-    margin-left: 2.39693%;
-  }
-}
-
-/* line 37, ../sass/_grid.scss */
-.grid2 {
-  width: 100%;
-  margin-bottom: 4.79386%;
+/* line 16, ../sass/_general.scss */
+body p {
+  padding-top: 34px;
 }
 @media (min-width: 1024px) {
-  /* line 37, ../sass/_grid.scss */
-  .grid2 {
-    width: 14.66922%;
-    float: left;
-    margin-left: 2.39693%;
+  /* line 16, ../sass/_general.scss */
+  body p {
+    padding-top: 0;
   }
 }
-
-/* line 37, ../sass/_grid.scss */
-.grid3 {
-  width: 100%;
-  margin-bottom: 4.79386%;
-}
-@media (min-width: 1024px) {
-  /* line 37, ../sass/_grid.scss */
-  .grid3 {
-    width: 23.2023%;
-    float: left;
-    margin-left: 2.39693%;
-  }
-}
-
-/* line 37, ../sass/_grid.scss */
-.grid4 {
-  width: 100%;
-  margin-bottom: 4.79386%;
-}
-@media (min-width: 1024px) {
-  /* line 37, ../sass/_grid.scss */
-  .grid4 {
-    width: 31.73538%;
-    float: left;
-    margin-left: 2.39693%;
-  }
-}
-
-/* line 37, ../sass/_grid.scss */
-.grid5 {
-  width: 100%;
-  margin-bottom: 4.79386%;
-}
-@media (min-width: 1024px) {
-  /* line 37, ../sass/_grid.scss */
-  .grid5 {
-    width: 40.26846%;
-    float: left;
-    margin-left: 2.39693%;
-  }
-}
-
-/* line 37, ../sass/_grid.scss */
-.grid6 {
-  width: 100%;
-  margin-bottom: 4.79386%;
-}
-@media (min-width: 1024px) {
-  /* line 37, ../sass/_grid.scss */
-  .grid6 {
-    width: 48.80153%;
-    float: left;
-    margin-left: 2.39693%;
-  }
-}
-
-/* line 37, ../sass/_grid.scss */
-.grid7 {
-  width: 100%;
-  margin-bottom: 4.79386%;
-}
-@media (min-width: 1024px) {
-  /* line 37, ../sass/_grid.scss */
-  .grid7 {
-    width: 57.33461%;
-    float: left;
-    margin-left: 2.39693%;
-  }
-}
-
-/* line 37, ../sass/_grid.scss */
-.grid8 {
-  width: 100%;
-  margin-bottom: 4.79386%;
-}
-@media (min-width: 1024px) {
-  /* line 37, ../sass/_grid.scss */
-  .grid8 {
-    width: 65.86769%;
-    float: left;
-    margin-left: 2.39693%;
-  }
-}
-
-/* line 37, ../sass/_grid.scss */
-.grid9 {
-  width: 100%;
-  margin-bottom: 4.79386%;
-}
-@media (min-width: 1024px) {
-  /* line 37, ../sass/_grid.scss */
-  .grid9 {
-    width: 74.40077%;
-    float: left;
-    margin-left: 2.39693%;
-  }
-}
-
-/* line 37, ../sass/_grid.scss */
-.grid10 {
-  width: 100%;
-  margin-bottom: 4.79386%;
-}
-@media (min-width: 1024px) {
-  /* line 37, ../sass/_grid.scss */
-  .grid10 {
-    width: 82.93384%;
-    float: left;
-    margin-left: 2.39693%;
-  }
-}
-
-/* line 37, ../sass/_grid.scss */
-.grid11 {
-  width: 100%;
-  margin-bottom: 4.79386%;
-}
-@media (min-width: 1024px) {
-  /* line 37, ../sass/_grid.scss */
-  .grid11 {
-    width: 91.46692%;
-    float: left;
-    margin-left: 2.39693%;
-  }
-}
-
-/* line 56, ../sass/_grid.scss */
-.clear {
-  margin-left: 0px;
-  clear: left;
+/* line 22, ../sass/_general.scss */
+body a {
+  color: #008ed2;
+  text-transform: uppercase;
 }
 
 /* line 1, ../sass/_sections.scss */
@@ -265,4 +314,47 @@ header {
 .about {
   padding-top: 65px;
   padding-bottom: 65px;
+}
+/* line 14, ../sass/_sections.scss */
+.about h1 {
+  font-family: "Brandon Text", sans-serif;
+  font-size: 31pt;
+  text-transform: uppercase;
+  font-weight: normal;
+  border-bottom: 2px solid #888888;
+  display: inline;
+}
+/* line 21, ../sass/_sections.scss */
+.about h1 span {
+  font-family: "Brandon Text", sans-serif;
+  font-size: 15pt;
+  display: block;
+}
+
+/* line 28, ../sass/_sections.scss */
+.sectors {
+  padding-top: 83px;
+  padding-bottom: 83px;
+  background-color: #eaeaea;
+}
+
+/* line 33, ../sass/_sections.scss */
+.three-sections {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+/* line 36, ../sass/_sections.scss */
+.three-sections .grid4 {
+  text-align: center;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+/* line 41, ../sass/_sections.scss */
+.three-sections h1 {
+  font-family: "Brandon Grotesque Black", sans-serif;
+  font-size: 22pt;
+  border-bottom: 1px solid #888888;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }

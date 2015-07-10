@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: $brandon-text;
+    line-height: 1.8;
+    color: $text;
+    h1 {
+        padding-bottom: 24px;
+    }
+    p {
+        padding-top: 34px;
+        @include breakpoint($large) {
+            padding-top: 0;
+        }
+    }
+    a {
+        color: $link-color;
+        text-transform: uppercase;
+    }
+}
