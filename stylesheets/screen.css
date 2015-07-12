@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -274,41 +274,41 @@ html {
   box-sizing: border-box;
 }
 
-/* line 4, ../sass/_general.scss */
+/* line 5, ../sass/_general.scss */
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
 
-/* line 9, ../sass/_general.scss */
+/* line 11, ../sass/_general.scss */
 body {
   font-family: "Brandon Text", sans-serif;
   line-height: 1.8;
-  color: #111;
+  color: #111111;
 }
-/* line 13, ../sass/_general.scss */
+/* line 15, ../sass/_general.scss */
 body h1 {
   padding-bottom: 24px;
 }
-/* line 16, ../sass/_general.scss */
+/* line 18, ../sass/_general.scss */
 body p {
   margin-top: 34px;
 }
 @media (min-width: 1024px) {
-  /* line 16, ../sass/_general.scss */
+  /* line 18, ../sass/_general.scss */
   body p {
     padding-top: 0;
   }
 }
-/* line 22, ../sass/_general.scss */
+/* line 24, ../sass/_general.scss */
 body a {
   color: #008ed2;
   text-transform: uppercase;
   font-family: "Brandon Grotesque Black", sans-serif;
   text-decoration: none;
 }
-/* line 27, ../sass/_general.scss */
+/* line 29, ../sass/_general.scss */
 body a:after {
   display: block;
   height: 2px;
@@ -322,7 +322,7 @@ body a:after {
   transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
 }
-/* line 40, ../sass/_general.scss */
+/* line 42, ../sass/_general.scss */
 body a:hover:after {
   transform: scaleX(0.38);
   -webkit-transform: scaleX(0.38);
@@ -333,81 +333,99 @@ nav {
   display: block;
   text-align: center;
   padding-bottom: 0px;
+  background-color: #001531;
 }
-/* line 5, ../sass/_nav.scss */
-nav li {
+/* line 6, ../sass/_nav.scss */
+nav .logo {
+  display: none;
+}
+
+/* line 11, ../sass/_nav.scss */
+.sticky {
+  padding-top: 15px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+/* line 19, ../sass/_nav.scss */
+li {
   display: inline-block;
   padding: 0 32px 15px;
   position: relative;
 }
-/* line 9, ../sass/_nav.scss */
-nav li a {
-  color: #fff;
+/* line 23, ../sass/_nav.scss */
+li a {
+  color: white;
   font-family: "Brandon Text", sans-serif;
   text-decoration: none;
 }
-/* line 13, ../sass/_nav.scss */
-nav li a:after {
+/* line 27, ../sass/_nav.scss */
+li a:after {
   display: block;
   height: 3px;
   position: relative;
   width: 100%;
   top: 15px;
-  background-color: #fff;
+  background-color: white;
   content: "";
   transform: scaleX(0);
   -webkit-transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
 }
-/* line 26, ../sass/_nav.scss */
-nav li a:hover:after {
+/* line 40, ../sass/_nav.scss */
+li a:hover:after {
   transform: scaleX(1);
   -webkit-transform: scaleX(1);
 }
-/* line 31, ../sass/_nav.scss */
-nav li .linkActive:after {
+/* line 45, ../sass/_nav.scss */
+li .linkActive:after {
   transform: scaleX(1);
   -webkit-transform: scaleX(1);
 }
-/* line 35, ../sass/_nav.scss */
-nav li ul {
+/* line 49, ../sass/_nav.scss */
+li ul {
   position: absolute;
   visibility: hidden;
   opacity: 0;
   transition: opacity 1s;
 }
-/* line 43, ../sass/_nav.scss */
-nav li:hover ul {
+
+/* line 58, ../sass/_nav.scss */
+li:hover ul {
   visibility: visible;
-  background: #fff;
+  background: white;
   opacity: 1;
   top: 46px;
   left: 10px;
   border-bottom: 3px solid #001531;
 }
-/* line 50, ../sass/_nav.scss */
-nav li:hover ul li {
+/* line 65, ../sass/_nav.scss */
+li:hover ul li {
   display: block;
   padding: 5px 100px 5px 20px;
   text-align: left;
 }
-/* line 54, ../sass/_nav.scss */
-nav li:hover ul li a {
-  color: #111;
+/* line 69, ../sass/_nav.scss */
+li:hover ul li a {
+  color: #111111;
 }
-/* line 56, ../sass/_nav.scss */
-nav li:hover ul li a:after {
+/* line 71, ../sass/_nav.scss */
+li:hover ul li a:after {
   height: 1px;
   top: 0;
-  background-color: #111;
+  background-color: #111111;
 }
-/* line 65, ../sass/_nav.scss */
-nav li:first-child {
+
+/* line 81, ../sass/_nav.scss */
+li:first-child {
   padding-left: 0;
 }
-/* line 68, ../sass/_nav.scss */
-nav li:last-child {
+
+/* line 85, ../sass/_nav.scss */
+li:last-child {
   padding-right: 0;
 }
 
@@ -423,16 +441,16 @@ header .logo {
   max-width: 100%;
 }
 
-/* line 10, ../sass/_sections.scss */
+/* line 11, ../sass/_sections.scss */
 .banner {
   background: url(/bannerimg.jpg);
   height: 515px;
   background-size: cover;
   background-position: center center;
 }
-/* line 15, ../sass/_sections.scss */
+/* line 16, ../sass/_sections.scss */
 .banner .banner-box {
-  color: #fff;
+  color: white;
   background-color: rgba(0, 21, 49, 0.8);
   position: relative;
   top: 10%;
@@ -440,24 +458,25 @@ header .logo {
   margin: auto auto;
   text-align: center;
   padding: 36px;
+  display: none;
 }
-/* line 24, ../sass/_sections.scss */
+/* line 26, ../sass/_sections.scss */
 .banner .banner-box h1 {
   font-size: 18px;
 }
 @media (min-width: 600px) {
-  /* line 24, ../sass/_sections.scss */
+  /* line 26, ../sass/_sections.scss */
   .banner .banner-box h1 {
     font-size: 20px;
   }
 }
 @media (min-width: 1024px) {
-  /* line 24, ../sass/_sections.scss */
+  /* line 26, ../sass/_sections.scss */
   .banner .banner-box h1 {
     font-size: 22px;
   }
 }
-/* line 33, ../sass/_sections.scss */
+/* line 35, ../sass/_sections.scss */
 .banner .banner-box p {
   margin: 0;
   line-height: 1.4;
@@ -465,43 +484,43 @@ header .logo {
   font-size: 24px;
 }
 @media (min-width: 600px) {
-  /* line 33, ../sass/_sections.scss */
+  /* line 35, ../sass/_sections.scss */
   .banner .banner-box p {
     font-size: 28px;
   }
 }
 @media (min-width: 1024px) {
-  /* line 33, ../sass/_sections.scss */
+  /* line 35, ../sass/_sections.scss */
   .banner .banner-box p {
     font-size: 31px;
   }
 }
 @media (min-width: 600px) {
-  /* line 15, ../sass/_sections.scss */
+  /* line 16, ../sass/_sections.scss */
   .banner .banner-box {
     top: 20%;
   }
 }
 @media (min-width: 1024px) {
-  /* line 15, ../sass/_sections.scss */
+  /* line 16, ../sass/_sections.scss */
   .banner .banner-box {
     width: 40%;
     top: 15%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 15, ../sass/_sections.scss */
+  /* line 16, ../sass/_sections.scss */
   .banner .banner-box {
     top: 25%;
   }
 }
 
-/* line 57, ../sass/_sections.scss */
+/* line 60, ../sass/_sections.scss */
 .about {
   padding-top: 65px;
   padding-bottom: 65px;
 }
-/* line 60, ../sass/_sections.scss */
+/* line 63, ../sass/_sections.scss */
 .about h1 {
   font-family: "Brandon Text", sans-serif;
   font-size: 31pt;
@@ -510,36 +529,36 @@ header .logo {
   border-bottom: 2px solid #888888;
   display: inline;
 }
-/* line 67, ../sass/_sections.scss */
+/* line 70, ../sass/_sections.scss */
 .about h1 span {
   font-family: "Brandon Text", sans-serif;
   font-size: 15pt;
   display: block;
 }
 
-/* line 74, ../sass/_sections.scss */
+/* line 78, ../sass/_sections.scss */
 .sectors {
   padding-top: 83px;
   padding-bottom: 83px;
   background-color: #eaeaea;
 }
 
-/* line 79, ../sass/_sections.scss */
+/* line 84, ../sass/_sections.scss */
 .three-sections {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-/* line 82, ../sass/_sections.scss */
+/* line 87, ../sass/_sections.scss */
 .three-sections .grid4 {
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
 }
-/* line 87, ../sass/_sections.scss */
+/* line 92, ../sass/_sections.scss */
 .three-sections p {
   margin: 24px 0;
 }
-/* line 90, ../sass/_sections.scss */
+/* line 95, ../sass/_sections.scss */
 .three-sections h1 {
   font-family: "Brandon Grotesque Black", sans-serif;
   font-size: 22pt;
@@ -548,15 +567,15 @@ header .logo {
   text-transform: uppercase;
 }
 
-/* line 98, ../sass/_sections.scss */
+/* line 104, ../sass/_sections.scss */
 footer {
   background: #001531;
-  color: #fff;
+  color: white;
   padding: 40px 0 0;
   text-align: right;
   text-transform: uppercase;
 }
-/* line 104, ../sass/_sections.scss */
+/* line 110, ../sass/_sections.scss */
 footer .grid2 {
   height: 100%;
   padding-top: 20px;
