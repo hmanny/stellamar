@@ -4,14 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Untitled Document</title>
-    <link href="/stylesheets/screen.css" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/screen.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
     <header>
 
-        <img class="logo" src="/img/Stellamar-Logo.png">
-
+        <img class="logo" src="img/Stellamar-Logo.png">
         <nav class="desk">
             <ul class="menu" id="headerMenu">
                 <li id="menu0" class="liLinkActive"><a class="linkActive" title="Home" href="#">Home</a>
@@ -34,10 +33,6 @@
                 </li>
             </ul>
         </nav>
-
-
-
-
     </header>
     <div class="banner">
         <div class="banner-box">
@@ -64,10 +59,25 @@
     <div class="sectors">
         <div class="container">
             <div class="grid6">
+                <div class="sector-box">
+                    <img src="img/boat.jpg">
+                    <div class="text">
+                        <h1>Maritime</h1>
+                        <p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem investigationes demonstraverunt.</p>
+                    </div>
+                    <a href="#">More Info &raquo;</a></div>
+
             </div>
 
             <div class="grid6">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo </p>
+                <div class="sector-box">
+                    <img src="img/windfarm.jpg">
+                    <div class="text">
+                        <h1>Energy</h1>
+                        <p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem investigationes demonstraverunt.</p>
+                    </div>
+                    <a href="#">More Info &raquo;</a></div>
+
             </div>
         </div>
     </div>
@@ -93,11 +103,25 @@
             </div>
         </div>
     </div>
+    <div class="contact">
+        <div class="container">
+            <div class="grid8">
+                <h1>Send us your CV</h1>
+                <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis..</p>
+            </div>
+            <div class="grid1"></div>
+            <div class="grid3">
+                <div class="contactlink">
+                    <a href="#">Contact Us</a>
+                </div>
 
+            </div>
+        </div>
+    </div>
     <footer>
         <div class="container">
             <div class="grid2">
-                <img class="logo" src="/img/footer-logo.png">
+                <img class="logo" src="img/footer-logo.png">
             </div>
             <div class="grid10">
                 &copy; stellamar | Privacy Policy | Terms
@@ -106,11 +130,37 @@
         </div>
     </footer>
 
-    <script src="/js/jquery-1.11.3.min.js"></script>
-    <script src="/js/stickynav.js"></script>
+    <nav class="mob">
+        <ul class="menu" id="mobileMenu">
+            <li id="menu0" class="liLinkActive"><a class="linkActive" title="Home" href="#">Home</a>
+            </li>
+            <li id="menu1" class="nodiv"><a title="Sectors" href="#">Sectors</a>
+                <ul>
+                    <li><a title="Maritime" href="#">Maritime</a>
+                    </li>
+                    <li><a title="Energy" href="#">Energy</a>
+                    </li>
+                </ul>
+            </li>
+            <li id="menu2" class="nodiv"><a title="Services" href="#">Services</a>
+            </li>
+            <li id="menu3" class="nodiv"><a title="Clients" href="#">Clients</a>
+            </li>
+            <li id="menu4" class="nodiv"><a title="Candidates" href="#">Candidates</a>
+            </li>
+            <li id="menu4" class="nodiv"><a title="Contact" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
 
+    <div class="mobile-header">
+        <button class="menu_button"></button>
+    </div>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/script.js"></script>
     <script>
-        $('.banner-box').delay(1000).fadeIn(800);
+
+
     </script>
 
 

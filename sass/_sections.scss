@@ -1,4 +1,8 @@
 header {
+    display: none;
+    @include breakpoint($large) {
+        display: block;
+    }
     background: $dark-blue;
     .logo {
         display: block;
@@ -7,9 +11,12 @@ header {
         max-width: 100%;
     }
 }
-
 .banner {
-    background: url(/bannerimg.jpg);
+    margin-top: 55px;
+    @include breakpoint($large) {
+        margin-top: 0;
+    }
+    background: url(../bannerimg.jpg);
     height: 515px;
     background-size: cover;
     background-position: center center;
@@ -48,39 +55,67 @@ header {
             top: 20%;
         }
         @include breakpoint($large) {
-            width: 40%;
-            top: 15%;
-        }
-        @include breakpoint($larger) {
+            width: 770px;
             top: 25%;
         }
     }
 }
-
 .about {
     padding-top: 65px;
     padding-bottom: 65px;
     h1 {
-        font-family: $brandon-text;
-        font-size: 31pt;
+        font-size: 31px;
         text-transform: uppercase;
         font-weight: normal;
         border-bottom: 2px solid $light-grey;
         display: inline;
+        line-height: 1.2;
         span {
-            font-family: $brandon-text;
-            font-size: 15pt;
+            font-family: $brandon-grotesque-black;
+            font-size: 15px;
             display: block;
+            padding: 0;
+        }
+    }
+    p {
+        @include breakpoint($large) {
+            margin: 0;
         }
     }
 }
-
 .sectors {
     padding-top: 83px;
     padding-bottom: 83px;
     background-color: $off-white;
+    .sector-box {
+        background-color: $white;
+        padding-bottom: 20px;
+        max-width: 500px;
+        margin: 0 auto;
+        img {
+            width: 100%;
+        }
+        .text {
+            h1 {
+                text-transform: uppercase;
+                font-size: 22px;
+                font-family: $brandon-grotesque;
+                padding: 0;
+                margin: 20px 0;
+            }
+            margin: 0 30px;
+            p {
+                margin: 0;
+            }
+            padding-bottom: 30px;
+            border-bottom: 1px solid $light-grey;
+            margin-bottom: 20px;
+        }
+        a {
+            margin-left: 30px;
+        }
+    }
 }
-
 .three-sections {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -94,22 +129,58 @@ header {
     }
     h1 {
         font-family: $brandon-grotesque;
-        font-size: 22pt;
+        font-size: 22px;
         border-bottom: 1px solid $light-grey;
         padding-bottom: 20px;
         text-transform: uppercase;
     }
 }
-
+.contact {
+    background: url('../img/contactbanner.jpg');
+    background-position: center center;
+    background-size: cover;
+    padding: 62px 0 50px;
+    color: $white;
+    h1 {
+        font-size: 22px;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+        font-family: $brandon-grotesque;
+        font-weight: normal;
+    }
+    p {
+        margin: 0;
+    }
+    .contactlink {
+        margin-top: 50px;
+        @include breakpoint($large) {
+            width: 100%;
+        }
+        max-width: 240px;
+        border-top: 1px solid $white;
+        border-bottom: 1px solid $white;
+        text-align: center;
+        padding: 9px 0;
+        a {
+            color: $white;
+            &:after {
+                display: none;
+            }
+        }
+    }
+}
 footer {
     background: $dark-blue;
     color: $white;
     padding: 40px 0 0;
     text-align: right;
     text-transform: uppercase;
+    overflow-y: hidden;
     .grid2 {
         height: 100%;
         padding-top: 20px;
-        padding-bottom: 20px;
+        @include breakpoint($large) {
+            padding-bottom: 20px;
+        }
     }
 }

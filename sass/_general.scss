@@ -1,13 +1,11 @@
 html {
     box-sizing: border-box;
 }
-
 *,
 *:before,
 *:after {
     box-sizing: inherit;
 }
-
 body {
     font-family: $brandon-text;
     line-height: 1.8;
@@ -26,6 +24,7 @@ body {
         text-transform: uppercase;
         font-family: $brandon-grotesque-black;
         text-decoration: none;
+        display: inline-block;
         &:after {
             display: block;
             height: 2px;
@@ -40,8 +39,8 @@ body {
             -webkit-transition: all 0.3s ease-in-out 0s;
         }
         &:hover:after {
-            transform: scaleX(0.38);
-            -webkit-transform: scaleX(0.38);
+            transform: scaleX(1);
+            -webkit-transform: scaleX(1);
         }
     }
 }
