@@ -1,6 +1,9 @@
 nav {
     display: block;
-    text-align: center;
+    text-align: right;
+    @include breakpoint($large) {
+        text-align: center;
+    }
     padding-bottom: 0px;
     background-color: $dark-blue;
     .logo {
@@ -19,7 +22,7 @@ nav {
         li {
             display: block;
             padding: 0;
-            margin-top: 30px;
+            margin-top: 20px;
             a {
                 color: $white;
                 font-family: $brandon-text;
@@ -38,19 +41,25 @@ nav {
     }
 }
 .sticky {
-    padding-top: 15px;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-    width: 100%;
+    @include breakpoint($large) {
+        padding-top: 15px;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+    }
 }
 .desk ul {
     li {
         display: inline-block;
-        padding: 0 32px 15px;
+        padding: 0 15px 15px;
         position: relative;
+        @include breakpoint($large) {
+            padding: 0 32px 15px;
+        }
         a {
             color: $white;
+            text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.04);
             font-family: $brandon-text;
             text-decoration: none;
             &:after {
@@ -109,7 +118,9 @@ nav {
         padding-left: 0;
     }
     li:last-child {
-        padding-right: 0;
+        @include breakpoint($large) {
+            padding-right: 0;
+        }
     }
 }
 .mobile-header {
@@ -119,8 +130,11 @@ nav {
     background: $dark-blue;
     z-index: 700;
     height: 60px;
-    @include breakpoint($large) {
+    @include breakpoint($med-large) {
         display: none;
+    }
+    .logo {
+        margin: 22px;
     }
     .menu_button {
         position: fixed;
