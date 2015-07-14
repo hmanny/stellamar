@@ -1,0 +1,19 @@
+.page {
+    .main-text {
+        padding: 45px 0;
+        text-align: center;
+        margin: 0 auto;
+        @include breakpoint ($med-large) {
+            text-align: left;
+        }
+    }
+    h1 {
+        text-transform: uppercase;
+        font-size: 31px;
+        margin-top: 45px;
+        padding: 0;
+        @include breakpoint ($med-large) {
+            margin-top: 0;
+        }
+    }
+}

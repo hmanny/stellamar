@@ -45,8 +45,9 @@ header {
         color: $white;
         background-color: $dark-blue-trans;
         position: relative;
-        top: 10%;
-        width: 80%;
+        top: 18%;
+        width: 300px;
+        max-width: 100%;
         margin: auto auto;
         text-align: center;
         padding: 36px;
@@ -74,17 +75,27 @@ header {
             }
         }
         @include breakpoint($med) {
-            top: 20%;
+            top: 25%;
+            width: 540px;
         }
         @include breakpoint($med-large) {
             width: 770px;
-            top: 25%;
+            top: 35%;
+        }
+        @include breakpoint($large) {
+            top: 28%;
         }
     }
 }
 .about {
-    padding-top: 65px;
-    padding-bottom: 65px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    @include breakpoint($med-large) {
+        padding-top: 65px;
+        padding-bottom: 65px;
+        text-align: left;
+    }
     h1 {
         font-size: 31px;
         text-transform: uppercase;
@@ -106,10 +117,16 @@ header {
     }
 }
 .sectors {
-    padding-top: 83px;
-    padding-bottom: 83px;
     background-image: url(../img/sectorsbg.jpg);
     background-color: $off-white;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    text-align: center;
+    @include breakpoint($med-large) {
+        padding-top: 83px;
+        padding-bottom: 83px;
+        text-align: left;
+    }
     .sector-box {
         background-color: $white;
         padding-bottom: 20px;
@@ -136,13 +153,19 @@ header {
             margin-bottom: 20px;
         }
         a {
-            margin-left: 30px;
+            @include breakpoint($med-large) {
+                margin-left: 30px;
+            }
         }
     }
 }
 .three-sections {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    @include breakpoint($med-large) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
     .grid4 {
         text-align: center;
         padding-left: 20px;
@@ -163,11 +186,12 @@ header {
     background: url('../img/contactbanner.jpg');
     background-position: center center;
     background-size: cover;
-    padding: 62px 0 50px;
+    padding: 45px 0 10px;
     color: $white;
     text-align: center;
     @include breakpoint($med-large) {
         text-align: left;
+        padding: 62px 0 50px;
     }
     h1 {
         font-size: 22px;
@@ -212,11 +236,16 @@ footer {
     text-align: right;
     text-transform: uppercase;
     overflow-y: hidden;
+    .grid2,
+    grid10 {
+        margin-bottom: 10px;
+    }
     .grid2 {
         height: 100%;
-        padding-top: 20px;
+        padding-top: 0;
         @include breakpoint($med-large) {
-            padding-bottom: 20px;
+            padding-top: 18px;
+            padding-bottom: 40px;
         }
     }
 }
