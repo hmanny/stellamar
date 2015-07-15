@@ -1,7 +1,7 @@
 .defaultForm {
     text-align: center;
     @include breakpoint($med-large) {
-        margin: 70px 0 0;
+        margin: 10px 0 0;
     }
     input,
     label {
