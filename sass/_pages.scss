@@ -35,5 +35,12 @@ body {
                 margin: 0;
             }
         }
+        .boat-banner {
+            background-image: url(/stellamar/img/boatstrip.jpg);
+            background-color: none;
+            background-size: cover;
+            height: 150px;
+            background-position: right;
+        }
     }
 }

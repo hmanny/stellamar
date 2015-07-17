@@ -948,6 +948,14 @@ body .page p p {
   padding: 0;
   margin: 0;
 }
+/* line 38, ../sass/_pages.scss */
+body .page .boat-banner {
+  background-image: url(/stellamar/img/boatstrip.jpg);
+  background-color: none;
+  background-size: cover;
+  height: 150px;
+  background-position: right;
+}
 
 /* line 1, ../sass/_form.scss */
 .defaultForm {
@@ -978,21 +986,37 @@ body .page p p {
   margin-top: 30px;
 }
 /* line 18, ../sass/_form.scss */
-.defaultForm input {
+.defaultForm input,
+.defaultForm textarea {
   border: 1px solid #888888;
-  height: 40px;
   border-radius: 40px;
   padding: 0 20px;
   width: 240px;
 }
 @media (min-width: 960px) {
   /* line 18, ../sass/_form.scss */
-  .defaultForm input {
+  .defaultForm input,
+  .defaultForm textarea {
     border-radius: 0;
     padding: 0 5px;
   }
 }
 /* line 29, ../sass/_form.scss */
+.defaultForm input {
+  height: 40px;
+}
+/* line 32, ../sass/_form.scss */
+.defaultForm textarea {
+  height: 100px;
+  padding: 20px;
+}
+@media (min-width: 960px) {
+  /* line 32, ../sass/_form.scss */
+  .defaultForm textarea {
+    padding: 5px;
+  }
+}
+/* line 39, ../sass/_form.scss */
 .defaultForm .fbElementButton {
   font-size: 16px;
   text-transform: uppercase;
@@ -1007,17 +1031,17 @@ body .page p p {
   -webkit-transition: opacity 0.3s;
 }
 @media (min-width: 960px) {
-  /* line 29, ../sass/_form.scss */
+  /* line 39, ../sass/_form.scss */
   .defaultForm .fbElementButton {
     margin: 30px 30px 30px auto;
   }
 }
-/* line 44, ../sass/_form.scss */
+/* line 54, ../sass/_form.scss */
 .defaultForm .fbElementButton:hover {
   opacity: 1;
   cursor: pointer;
 }
-/* line 49, ../sass/_form.scss */
-.defaultForm #editirForm2 {
+/* line 59, ../sass/_form.scss */
+.defaultForm #editirForm3 {
   border: none;
 }
