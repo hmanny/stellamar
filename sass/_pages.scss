@@ -35,12 +35,30 @@ body {
                 margin: 0;
             }
         }
-        .boat-banner {
-            background-image: url(/stellamar/img/boatstrip.jpg);
-            background-color: none;
-            background-size: cover;
-            height: 150px;
-            background-position: right;
+    }
+    ul li {
+        list-style-type: none;
+        text-transform: uppercase;
+    }
+    .grey {
+        background-color: $off-white;
+    }
+    .banner.clients {
+        background-image: url(/img/boats.jpg)
+    }
+    .page.clients {
+        padding: 50px 0;
+        h1 {
+            font-size: 31px;
+            text-transform: uppercase;
+            font-weight: normal;
+            border-bottom: 2px solid #888;
+            display: inline;
+            line-height: 1.2;
+            padding-bottom: 15px;
+            @include breakpoint ($large) {
+                line-height: 3.5;
+            }
         }
     }
 }
